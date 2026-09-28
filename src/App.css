@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(39, 39, 39); */
+  /* color: white; */
+}
+.navbar{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: pink;
+}
+.Image{
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+.profile{
+  width: 530px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 26px;
+  font-weight: 900;
+  
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  /* left: 0; */
+  background-color: pink;
+  height: 30px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 450px;
+}
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.men{
+  display: flex;
+  gap: 10px;
+}
+.mmm{
+	text-decoration: none;
+	color: red;
+	border: 3px solid goldenrod;
+	border-radius: 20%;
+	background-color: rgb(235, 225, 225);
+	padding: 6px;
+
+	
+}
+.mmm:hover{
+  transform: scale(1.1);
+}
+
+.kkk{
+	display: flex;
+	height: 70vh;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+ 
+	
+}
+.arrow{
+  font-size: 30px;
+  cursor: pointer;
+  transform: scale(1.2s);
+  margin-top: -10px;
+}
+.arrow:hover{
+  transform: scale(1.2);
+}
+.sonu{
+ margin-top: -10px;
+}
+.navbar2{
+  background-color: #2d545e;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.day{
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 6px;
+  
+}
+.day:hover{
+  border: 2px solid red;
+}
+.dayN{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.light {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+}
+
+.dark {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+}
+.aaa{
+  width: 20px;
+  margin: 0.1rem;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  border-radius: 100%;
+  border: none;
+}
+.aaa:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
